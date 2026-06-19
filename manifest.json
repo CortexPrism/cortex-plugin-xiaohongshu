@@ -11,7 +11,11 @@
   "homepage": "https://cortexprism.io/marketplace/plugins/xiaohongshu",
   "capabilities": ["tools", "network:fetch"],
   "tools": [
-    { "name": "xhs_create_post", "description": "Create platform-optimized post", "params": [] },
+    {
+      "name": "xhs_create_post",
+      "description": "Create platform-optimized post",
+      "params": []
+    },
     {
       "name": "xhs_analyze_trend",
       "description": "Analyze trending topics and hashtags",
@@ -22,9 +26,16 @@
       "description": "Schedule content for optimal posting time",
       "params": []
     },
-    { "name": "xhs_competitor", "description": "Monitor competitor content strategy", "params": [] }
+    {
+      "name": "xhs_competitor",
+      "description": "Monitor competitor content strategy",
+      "params": []
+    }
   ],
   "dependencies": {},
   "peerDependencies": { "cortex": ">=1.0.0" },
-  "aiDisclosure": { "tools": ["Kilo (DeepSeek) — batch scaffold"], "humanReview": true }
+  "aiDisclosure": {
+    "tools": ["Kilo (DeepSeek) — batch scaffold"],
+    "humanReview": true
+  }
 }
