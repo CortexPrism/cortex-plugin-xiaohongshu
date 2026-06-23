@@ -1,7 +1,7 @@
 {
   "name": "cortex-plugin-xiaohongshu",
-  "version": "1.0.0",
-  "description": "XiaoHongShu (RedNote) — Content creation and trend analysis for China's leading lifestyle platform (300M+ users)",
+  "version": "1.0.1",
+  "description": "XiaoHongShu (RedNote) \u2014 Content creation and trend analysis for China's leading lifestyle platform (300M+ users)",
   "kind": "esm",
   "entryPoint": "mod.ts",
   "runtime": "deno",
@@ -9,7 +9,10 @@
   "license": "MIT",
   "repository": "https://github.com/CortexPrism/cortex-plugin-xiaohongshu",
   "homepage": "https://cortexprism.io/marketplace/plugins/xiaohongshu",
-  "capabilities": ["tools", "network:fetch"],
+  "capabilities": [
+    "tools",
+    "network:fetch"
+  ],
   "tools": [
     {
       "name": "xhs_create_post",
@@ -33,9 +36,13 @@
     }
   ],
   "dependencies": {},
-  "peerDependencies": { "cortex": ">=1.0.0" },
+  "peerDependencies": {
+    "cortex": ">=0.51.0"
+  },
   "aiDisclosure": {
-    "tools": ["Kilo (DeepSeek) — batch scaffold"],
+    "tools": [
+      "Kilo (DeepSeek) \u2014 batch scaffold"
+    ],
     "humanReview": true
   }
 }
